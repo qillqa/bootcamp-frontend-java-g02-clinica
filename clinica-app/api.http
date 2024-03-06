@@ -1,0 +1,19 @@
+### Registrar un nuevo usuario
+POST https://mockmentor.4.us-1.fl0.io/auth/register
+Content-Type: application/json
+
+{
+  "firstname": "elias",
+  "lastname": "Alarcon",
+  "email": "elias@alarcon.com",
+  "password": "elias"
+}
+
+### Login
+POST https://mockmentor.4.us-1.fl0.io/auth/login
+Content-Type: application/json
+
+{
+  "email": "elias@alarcon.com",
+  "password": "elias"
+}
